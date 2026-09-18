@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusShield</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+    <header>
+        <h1>🛡️ CampusShield</h1>
+        <p>Check Before You Click</p>
+    </header>
+
+    <main>
+
+        <section class="scanner">
+            <h2>🔍 Check a Suspicious URL</h2>
+
+            <p>
+                Enter a URL below to check for potentially suspicious
+                characteristics.
+            </p>
+
+            <input
+                type="url"
+                id="urlInput"
+                placeholder="https://example.com"
+            >
+
+            <button onclick="scanURL()">SCAN URL</button>
+
+            <div id="result"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>CampusShield © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
