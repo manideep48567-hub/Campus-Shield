@@ -1,1 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    background: #0b1120;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 50px 20px 30px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.scanner {
+    width: 100%;
+    max-width: 650px;
+    background: #111827;
+    padding: 35px;
+    border-radius: 16px;
+    border: 1px solid #263244;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.scanner h2 {
+    margin-bottom: 15px;
+}
+
+.scanner p {
+    color: #94a3b8;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+/* URL input */
+
+input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #334155;
+    background: #0f172a;
+    color: white;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #38bdf8;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Result */
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #0f172a;
+    color: #cbd5e1;
+    min-height: 50px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #64748b;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .scanner {
+        padding: 25px;
+    }
+}
