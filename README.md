@@ -1,4 +1,4 @@
-# CampusShield 🛡️
+# CampusShield
 
 ## AI-Powered Campus Cybersecurity Assistant
 
@@ -14,12 +14,12 @@ CampusShield analyzes suspicious digital content and provides a simple risk asse
 
 ## Planned Features
 
-- 🔗 Suspicious URL analysis
-- 📱 QR code analysis
-- 💬 Phishing message analysis
-- ⚠️ Risk assessment
-- 🛡️ Security recommendations
-- 🚨 Campus scam alerts
+- Suspicious URL analysis
+- QR code analysis
+- Phishing message analysis
+- Risk assessment
+- Security recommendations
+- Campus scam alerts
 
 ## Tech Stack
 
@@ -31,4 +31,4 @@ CampusShield analyzes suspicious digital content and provides a simple risk asse
 
 ## Project Status
 
-🚧 Currently under development.
+Currently under development.
